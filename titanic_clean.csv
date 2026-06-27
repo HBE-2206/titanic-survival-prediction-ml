@@ -1,0 +1,892 @@
+PassengerId,Survived,Pclass,Sex,SibSp,Parch,Embarked,Title,GrpSize,FareCat,AgeCat
+1,0,3,male,1,0,S,Mr,couple,0-10,16-32
+2,1,1,female,1,0,C,Mrs,couple,70-100,32-48
+3,1,3,female,0,0,S,Miss,solo,0-10,16-32
+4,1,1,female,1,0,S,Mrs,couple,40-70,32-48
+5,0,3,male,0,0,S,Mr,solo,0-10,32-48
+6,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+7,0,1,male,0,0,S,Mr,solo,40-70,48-64
+8,0,3,male,3,1,S,Master,large group,10-25,0-16
+9,1,3,female,0,2,S,Mrs,group,10-25,16-32
+10,1,2,female,1,0,C,Mrs,couple,25-40,0-16
+11,1,3,female,1,1,S,Miss,group,10-25,0-16
+12,1,1,female,0,0,S,Miss,solo,25-40,48-64
+13,0,3,male,0,0,S,Mr,solo,0-10,16-32
+14,0,3,male,1,5,S,Mr,large group,25-40,32-48
+15,0,3,female,0,0,S,Miss,solo,0-10,0-16
+16,1,2,female,0,0,S,Mrs,solo,10-25,48-64
+17,0,3,male,4,1,Q,Master,large group,25-40,0-16
+18,1,2,male,0,0,S,Mr,solo,10-25,16-32
+19,0,3,female,1,0,S,Mrs,couple,10-25,16-32
+20,1,3,female,0,0,C,Mrs,solo,0-10,16-32
+21,0,2,male,0,0,S,Mr,couple,25-40,32-48
+22,1,2,male,0,0,S,Mr,solo,10-25,32-48
+23,1,3,female,0,0,Q,Miss,solo,0-10,0-16
+24,1,1,male,0,0,S,Mr,solo,25-40,16-32
+25,0,3,female,3,1,S,Miss,large group,10-25,0-16
+26,1,3,female,1,5,S,Mrs,large group,25-40,32-48
+27,0,3,male,0,0,C,Mr,solo,0-10,16-32
+28,0,1,male,3,2,S,Mr,large group,100+,16-32
+29,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+30,0,3,male,0,0,S,Mr,solo,0-10,16-32
+31,0,1,male,0,0,C,Rare Title,solo,25-40,32-48
+32,1,1,female,1,0,C,Mrs,couple,100+,32-48
+33,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+34,0,2,male,0,0,S,Mr,solo,10-25,64+
+35,0,1,male,1,0,C,Mr,couple,70-100,16-32
+36,0,1,male,1,0,S,Mr,couple,40-70,32-48
+37,1,3,male,0,0,C,Mr,solo,0-10,16-32
+38,0,3,male,0,0,S,Mr,solo,0-10,16-32
+39,0,3,female,2,0,S,Miss,group,10-25,16-32
+40,1,3,female,1,0,C,Miss,couple,10-25,0-16
+41,0,3,female,1,0,S,Mrs,couple,0-10,32-48
+42,0,2,female,1,0,S,Mrs,couple,10-25,16-32
+43,0,3,male,0,0,C,Mr,solo,0-10,16-32
+44,1,2,female,1,2,C,Miss,group,40-70,0-16
+45,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+46,0,3,male,0,0,S,Mr,solo,0-10,16-32
+47,0,3,male,1,0,Q,Mr,couple,10-25,16-32
+48,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+49,0,3,male,2,0,C,Mr,group,10-25,16-32
+50,0,3,female,1,0,S,Mrs,couple,10-25,16-32
+51,0,3,male,4,1,S,Master,large group,25-40,0-16
+52,0,3,male,0,0,S,Mr,solo,0-10,16-32
+53,1,1,female,1,0,C,Mrs,group,70-100,48-64
+54,1,2,female,1,0,S,Mrs,couple,25-40,16-32
+55,0,1,male,0,1,C,Mr,couple,40-70,64+
+56,1,1,male,0,0,S,Mr,solo,25-40,32-48
+57,1,2,female,0,0,S,Miss,solo,10-25,16-32
+58,0,3,male,0,0,C,Mr,solo,0-10,16-32
+59,1,2,female,1,2,S,Miss,group,25-40,0-16
+60,0,3,male,5,2,S,Master,large group,40-70,0-16
+61,0,3,male,0,0,C,Mr,solo,0-10,16-32
+62,1,1,female,0,0,S,Miss,couple,70-100,32-48
+63,0,1,male,1,0,S,Mr,couple,70-100,32-48
+64,0,3,male,3,2,S,Master,large group,25-40,0-16
+65,0,1,male,0,0,C,Mr,solo,25-40,32-48
+66,1,3,male,1,1,C,Master,group,10-25,0-16
+67,1,2,female,0,0,S,Mrs,solo,10-25,16-32
+68,0,3,male,0,0,S,Mr,solo,0-10,16-32
+69,1,3,female,4,2,S,Miss,large group,0-10,16-32
+70,0,3,male,2,0,S,Mr,group,0-10,16-32
+71,0,2,male,0,0,S,Mr,solo,10-25,16-32
+72,0,3,female,5,2,S,Miss,large group,40-70,0-16
+73,0,2,male,0,0,S,Mr,large group,70-100,16-32
+74,0,3,male,1,0,C,Mr,couple,10-25,16-32
+75,1,3,male,0,0,S,Mr,large group,40-70,16-32
+76,0,3,male,0,0,S,Mr,solo,0-10,16-32
+77,0,3,male,0,0,S,Mr,solo,0-10,16-32
+78,0,3,male,0,0,S,Mr,solo,0-10,16-32
+79,1,2,male,0,2,S,Master,group,25-40,0-16
+80,1,3,female,0,0,S,Miss,couple,10-25,16-32
+81,0,3,male,0,0,S,Mr,solo,0-10,16-32
+82,1,3,male,0,0,S,Mr,solo,0-10,16-32
+83,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+84,0,1,male,0,0,S,Mr,solo,40-70,16-32
+85,1,2,female,0,0,S,Miss,solo,10-25,16-32
+86,1,3,female,3,0,S,Mrs,group,10-25,32-48
+87,0,3,male,1,3,S,Mr,large group,25-40,0-16
+88,0,3,male,0,0,S,Mr,solo,0-10,16-32
+89,1,1,female,3,2,S,Miss,large group,100+,16-32
+90,0,3,male,0,0,S,Mr,solo,0-10,16-32
+91,0,3,male,0,0,S,Mr,solo,0-10,16-32
+92,0,3,male,0,0,S,Mr,solo,0-10,16-32
+93,0,1,male,1,0,S,Mr,couple,40-70,32-48
+94,0,3,male,1,2,S,Mr,group,10-25,16-32
+95,0,3,male,0,0,S,Mr,solo,0-10,48-64
+96,0,3,male,0,0,S,Mr,solo,0-10,16-32
+97,0,1,male,0,0,C,Mr,solo,25-40,64+
+98,1,1,male,0,1,C,Mr,couple,40-70,16-32
+99,1,2,female,0,1,S,Mrs,couple,10-25,32-48
+100,0,2,male,1,0,S,Mr,couple,25-40,32-48
+101,0,3,female,0,0,S,Miss,solo,0-10,16-32
+102,0,3,male,0,0,S,Mr,solo,0-10,16-32
+103,0,1,male,0,1,S,Mr,couple,70-100,16-32
+104,0,3,male,0,0,S,Mr,solo,0-10,32-48
+105,0,3,male,2,0,S,Mr,group,0-10,32-48
+106,0,3,male,0,0,S,Mr,solo,0-10,16-32
+107,1,3,female,0,0,S,Miss,solo,0-10,16-32
+108,1,3,male,0,0,S,Mr,solo,0-10,16-32
+109,0,3,male,0,0,S,Mr,solo,0-10,32-48
+110,1,3,female,1,0,Q,Miss,group,10-25,16-32
+111,0,1,male,0,0,S,Mr,couple,40-70,32-48
+112,0,3,female,1,0,C,Miss,couple,10-25,0-16
+113,0,3,male,0,0,S,Mr,solo,0-10,16-32
+114,0,3,female,1,0,S,Miss,couple,0-10,16-32
+115,0,3,female,0,0,C,Miss,couple,10-25,16-32
+116,0,3,male,0,0,S,Mr,solo,0-10,16-32
+117,0,3,male,0,0,Q,Mr,solo,0-10,64+
+118,0,2,male,1,0,S,Mr,couple,10-25,16-32
+119,0,1,male,0,1,C,Mr,couple,100+,16-32
+120,0,3,female,4,2,S,Miss,large group,25-40,0-16
+121,0,2,male,2,0,S,Mr,large group,70-100,16-32
+122,0,3,male,0,0,S,Mr,solo,0-10,16-32
+123,0,2,male,1,0,C,Mr,couple,25-40,32-48
+124,1,2,female,0,0,S,Miss,solo,10-25,32-48
+125,0,1,male,0,1,S,Mr,couple,70-100,48-64
+126,1,3,male,1,0,C,Master,couple,10-25,0-16
+127,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+128,1,3,male,0,0,S,Mr,solo,0-10,16-32
+129,1,3,female,1,1,C,Miss,group,10-25,16-32
+130,0,3,male,0,0,S,Mr,solo,0-10,32-48
+131,0,3,male,0,0,C,Mr,solo,0-10,32-48
+132,0,3,male,0,0,S,Mr,solo,0-10,16-32
+133,0,3,female,1,0,S,Mrs,couple,10-25,32-48
+134,1,2,female,1,0,S,Mrs,couple,25-40,16-32
+135,0,2,male,0,0,S,Mr,solo,10-25,16-32
+136,0,2,male,0,0,C,Mr,solo,10-25,16-32
+137,1,1,female,0,2,S,Miss,group,25-40,16-32
+138,0,1,male,1,0,S,Mr,couple,40-70,32-48
+139,0,3,male,0,0,S,Mr,couple,0-10,0-16
+140,0,1,male,0,0,C,Mr,couple,70-100,16-32
+141,0,3,female,0,2,C,Mrs,group,10-25,16-32
+142,1,3,female,0,0,S,Miss,solo,0-10,16-32
+143,1,3,female,1,0,S,Mrs,couple,10-25,16-32
+144,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+145,0,2,male,0,0,S,Mr,solo,10-25,16-32
+146,0,2,male,1,1,S,Mr,group,25-40,16-32
+147,1,3,male,0,0,S,Mr,solo,0-10,16-32
+148,0,3,female,2,2,S,Miss,large group,25-40,0-16
+149,0,2,male,0,2,S,Mr,group,25-40,32-48
+150,0,2,male,0,0,S,Rare Title,solo,10-25,32-48
+151,0,2,male,0,0,S,Rare Title,solo,10-25,48-64
+152,1,1,female,1,0,S,Mrs,couple,40-70,16-32
+153,0,3,male,0,0,S,Mr,solo,0-10,48-64
+154,0,3,male,0,2,S,Mr,group,10-25,32-48
+155,0,3,male,0,0,S,Mr,solo,0-10,16-32
+156,0,1,male,0,1,C,Mr,couple,40-70,48-64
+157,1,3,female,0,0,Q,Miss,solo,0-10,0-16
+158,0,3,male,0,0,S,Mr,solo,0-10,16-32
+159,0,3,male,0,0,S,Mr,solo,0-10,16-32
+160,0,3,male,8,2,S,Master,large group,40-70,0-16
+161,0,3,male,0,1,S,Mr,couple,10-25,32-48
+162,1,2,female,0,0,S,Mrs,solo,10-25,32-48
+163,0,3,male,0,0,S,Mr,solo,0-10,16-32
+164,0,3,male,0,0,S,Mr,solo,0-10,16-32
+165,0,3,male,4,1,S,Master,large group,25-40,0-16
+166,1,3,male,0,2,S,Master,group,10-25,0-16
+167,1,1,female,0,1,S,Mrs,couple,40-70,32-48
+168,0,3,female,1,4,S,Mrs,large group,25-40,32-48
+169,0,1,male,0,0,S,Mr,solo,25-40,32-48
+170,0,3,male,0,0,S,Mr,large group,40-70,16-32
+171,0,1,male,0,0,S,Mr,solo,25-40,48-64
+172,0,3,male,4,1,Q,Master,large group,25-40,0-16
+173,1,3,female,1,1,S,Miss,group,10-25,0-16
+174,0,3,male,0,0,S,Mr,solo,0-10,16-32
+175,0,1,male,0,0,C,Mr,solo,25-40,48-64
+176,0,3,male,1,1,S,Mr,group,0-10,16-32
+177,0,3,male,3,1,S,Master,large group,25-40,0-16
+178,0,1,female,0,0,C,Miss,solo,25-40,48-64
+179,0,2,male,0,0,S,Mr,solo,10-25,16-32
+180,0,3,male,0,0,S,Mr,group,0-10,32-48
+181,0,3,female,8,2,S,Miss,large group,40-70,16-32
+182,0,2,male,0,0,C,Mr,solo,10-25,16-32
+183,0,3,male,4,2,S,Master,large group,25-40,0-16
+184,1,2,male,2,1,S,Master,group,25-40,0-16
+185,1,3,female,0,2,S,Miss,group,10-25,0-16
+186,0,1,male,0,0,S,Mr,solo,40-70,32-48
+187,1,3,female,1,0,Q,Mrs,couple,10-25,16-32
+188,1,1,male,0,0,S,Mr,solo,25-40,32-48
+189,0,3,male,1,1,Q,Mr,group,10-25,32-48
+190,0,3,male,0,0,S,Mr,solo,0-10,32-48
+191,1,2,female,0,0,S,Mrs,solo,10-25,16-32
+192,0,2,male,0,0,S,Mr,solo,10-25,16-32
+193,1,3,female,1,0,S,Miss,couple,0-10,16-32
+194,1,2,male,1,1,S,Master,group,25-40,0-16
+195,1,1,female,0,0,C,Mrs,solo,25-40,32-48
+196,1,1,female,0,0,C,Miss,couple,100+,48-64
+197,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+198,0,3,male,0,1,S,Mr,couple,0-10,32-48
+199,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+200,0,2,female,0,0,S,Miss,solo,10-25,16-32
+201,0,3,male,0,0,S,Mr,solo,0-10,16-32
+202,0,3,male,8,2,S,Mr,large group,40-70,16-32
+203,0,3,male,0,0,S,Mr,solo,0-10,32-48
+204,0,3,male,0,0,C,Mr,solo,0-10,32-48
+205,1,3,male,0,0,S,Mr,solo,0-10,16-32
+206,0,3,female,0,1,S,Miss,couple,10-25,0-16
+207,0,3,male,1,0,S,Mr,couple,10-25,16-32
+208,1,3,male,0,0,C,Mr,couple,10-25,16-32
+209,1,3,female,0,0,Q,Miss,solo,0-10,0-16
+210,1,1,male,0,0,C,Mr,solo,25-40,32-48
+211,0,3,male,0,0,S,Mr,solo,0-10,16-32
+212,1,2,female,0,0,S,Miss,solo,10-25,32-48
+213,0,3,male,0,0,S,Mr,solo,0-10,16-32
+214,0,2,male,0,0,S,Mr,solo,10-25,16-32
+215,0,3,male,1,0,Q,Mr,couple,0-10,16-32
+216,1,1,female,1,0,C,Miss,group,100+,16-32
+217,1,3,female,0,0,S,Miss,solo,0-10,16-32
+218,0,2,male,1,0,S,Mr,couple,25-40,32-48
+219,1,1,female,0,0,C,Miss,solo,70-100,16-32
+220,0,2,male,0,0,S,Mr,solo,10-25,16-32
+221,1,3,male,0,0,S,Mr,solo,0-10,0-16
+222,0,2,male,0,0,S,Mr,solo,10-25,16-32
+223,0,3,male,0,0,S,Mr,solo,0-10,48-64
+224,0,3,male,0,0,S,Mr,solo,0-10,16-32
+225,1,1,male,1,0,S,Mr,couple,70-100,32-48
+226,0,3,male,0,0,S,Mr,solo,0-10,16-32
+227,1,2,male,0,0,S,Mr,solo,10-25,16-32
+228,0,3,male,0,0,S,Mr,solo,0-10,16-32
+229,0,2,male,0,0,S,Mr,solo,10-25,16-32
+230,0,3,female,3,1,S,Miss,large group,25-40,16-32
+231,1,1,female,1,0,S,Mrs,couple,70-100,32-48
+232,0,3,male,0,0,S,Mr,solo,0-10,16-32
+233,0,2,male,0,0,S,Mr,solo,10-25,48-64
+234,1,3,female,4,2,S,Miss,large group,25-40,0-16
+235,0,2,male,0,0,S,Mr,solo,10-25,16-32
+236,0,3,female,0,0,S,Miss,solo,0-10,16-32
+237,0,2,male,1,0,S,Mr,couple,25-40,32-48
+238,1,2,female,0,2,S,Miss,group,25-40,0-16
+239,0,2,male,0,0,S,Mr,solo,10-25,16-32
+240,0,2,male,0,0,S,Mr,solo,10-25,32-48
+241,0,3,female,1,0,C,Miss,couple,10-25,16-32
+242,1,3,female,1,0,Q,Miss,couple,10-25,16-32
+243,0,2,male,0,0,S,Mr,solo,10-25,16-32
+244,0,3,male,0,0,S,Mr,solo,0-10,16-32
+245,0,3,male,0,0,C,Mr,solo,0-10,16-32
+246,0,1,male,2,0,Q,Rare Title,group,70-100,32-48
+247,0,3,female,0,0,S,Miss,solo,0-10,16-32
+248,1,2,female,0,2,S,Mrs,group,10-25,16-32
+249,1,1,male,1,1,S,Mr,group,40-70,32-48
+250,0,2,male,1,0,S,Rare Title,couple,25-40,48-64
+251,0,3,male,0,0,S,Mr,solo,0-10,16-32
+252,0,3,female,1,1,S,Mrs,group,10-25,16-32
+253,0,1,male,0,0,S,Mr,solo,25-40,48-64
+254,0,3,male,1,0,S,Mr,couple,10-25,16-32
+255,0,3,female,0,2,S,Mrs,group,10-25,32-48
+256,1,3,female,0,2,C,Mrs,group,10-25,16-32
+257,1,1,female,0,0,C,Mrs,solo,70-100,32-48
+258,1,1,female,0,0,S,Miss,group,70-100,16-32
+259,1,1,female,0,0,C,Miss,group,100+,32-48
+260,1,2,female,0,1,S,Mrs,couple,25-40,48-64
+261,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+262,1,3,male,4,2,S,Master,large group,25-40,0-16
+263,0,1,male,1,1,S,Mr,group,70-100,48-64
+264,0,1,male,0,0,S,Mr,solo,40-70,32-48
+265,0,3,female,0,0,Q,Miss,solo,0-10,16-32
+266,0,2,male,0,0,S,Mr,solo,10-25,32-48
+267,0,3,male,4,1,S,Mr,large group,25-40,0-16
+268,1,3,male,1,0,S,Mr,couple,0-10,16-32
+269,1,1,female,0,1,S,Mrs,group,100+,48-64
+270,1,1,female,0,0,S,Miss,group,100+,32-48
+271,0,1,male,0,0,S,Mr,couple,25-40,32-48
+272,1,3,male,0,0,S,Mr,group,0-10,16-32
+273,1,2,female,0,1,S,Mrs,couple,10-25,32-48
+274,0,1,male,0,1,C,Mr,couple,25-40,32-48
+275,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+276,1,1,female,1,0,S,Miss,group,70-100,48-64
+277,0,3,female,0,0,S,Miss,solo,0-10,32-48
+278,0,2,male,0,0,S,Mr,group,10-25,16-32
+279,0,3,male,4,1,Q,Master,large group,25-40,0-16
+280,1,3,female,1,1,S,Mrs,group,10-25,32-48
+281,0,3,male,0,0,Q,Mr,solo,0-10,64+
+282,0,3,male,0,0,S,Mr,solo,0-10,16-32
+283,0,3,male,0,0,S,Mr,solo,0-10,0-16
+284,1,3,male,0,0,S,Mr,solo,0-10,16-32
+285,0,1,male,0,0,S,Mr,solo,25-40,32-48
+286,0,3,male,0,0,C,Mr,solo,0-10,32-48
+287,1,3,male,0,0,S,Mr,solo,0-10,16-32
+288,0,3,male,0,0,S,Mr,solo,0-10,16-32
+289,1,2,male,0,0,S,Mr,solo,10-25,32-48
+290,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+291,1,1,female,0,0,S,Miss,couple,70-100,16-32
+292,1,1,female,1,0,C,Mrs,couple,70-100,16-32
+293,0,2,male,0,0,C,Mr,solo,10-25,32-48
+294,0,3,female,0,0,S,Miss,solo,0-10,16-32
+295,0,3,male,0,0,S,Mr,solo,0-10,16-32
+296,0,1,male,0,0,C,Mr,solo,25-40,32-48
+297,0,3,male,0,0,C,Mr,solo,0-10,16-32
+298,0,1,female,1,2,S,Miss,group,100+,0-16
+299,1,1,male,0,0,S,Mr,solo,25-40,32-48
+300,1,1,female,0,1,C,Mrs,couple,100+,48-64
+301,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+302,1,3,male,2,0,Q,Mr,group,10-25,16-32
+303,0,3,male,0,0,S,Mr,group,0-10,16-32
+304,1,2,female,0,0,Q,Miss,solo,10-25,16-32
+305,0,3,male,0,0,S,Mr,solo,0-10,16-32
+306,1,1,male,1,2,S,Master,group,100+,0-16
+307,1,1,female,0,0,C,Miss,group,100+,16-32
+308,1,1,female,1,0,C,Mrs,couple,100+,16-32
+309,0,2,male,1,0,C,Mr,couple,10-25,16-32
+310,1,1,female,0,0,C,Miss,couple,40-70,16-32
+311,1,1,female,0,0,C,Miss,couple,70-100,16-32
+312,1,1,female,2,2,C,Miss,large group,100+,16-32
+313,0,2,female,1,1,S,Mrs,group,25-40,16-32
+314,0,3,male,0,0,S,Mr,solo,0-10,16-32
+315,0,2,male,1,1,S,Mr,group,25-40,32-48
+316,1,3,female,0,0,S,Miss,solo,0-10,16-32
+317,1,2,female,1,0,S,Mrs,couple,25-40,16-32
+318,0,2,male,0,0,S,Rare Title,solo,10-25,48-64
+319,1,1,female,0,2,S,Miss,group,100+,16-32
+320,1,1,female,1,1,C,Mrs,group,100+,32-48
+321,0,3,male,0,0,S,Mr,solo,0-10,16-32
+322,0,3,male,0,0,S,Mr,solo,0-10,16-32
+323,1,2,female,0,0,Q,Miss,solo,10-25,16-32
+324,1,2,female,1,1,S,Mrs,group,25-40,16-32
+325,0,3,male,8,2,S,Mr,large group,40-70,16-32
+326,1,1,female,0,0,C,Miss,group,100+,32-48
+327,0,3,male,0,0,S,Mr,solo,0-10,48-64
+328,1,2,female,0,0,S,Mrs,solo,10-25,32-48
+329,1,3,female,1,1,S,Mrs,group,10-25,16-32
+330,1,1,female,0,1,C,Miss,couple,40-70,0-16
+331,1,3,female,2,0,Q,Miss,group,10-25,16-32
+332,0,1,male,0,0,S,Mr,solo,25-40,32-48
+333,0,1,male,0,1,S,Mr,group,100+,32-48
+334,0,3,male,2,0,S,Mr,group,10-25,0-16
+335,1,1,female,1,0,S,Mrs,couple,100+,32-48
+336,0,3,male,0,0,S,Mr,solo,0-10,16-32
+337,0,1,male,1,0,S,Mr,couple,40-70,16-32
+338,1,1,female,0,0,C,Miss,couple,100+,32-48
+339,1,3,male,0,0,S,Mr,solo,0-10,32-48
+340,0,1,male,0,0,S,Mr,solo,25-40,32-48
+341,1,2,male,1,1,S,Master,group,25-40,0-16
+342,1,1,female,3,2,S,Miss,large group,100+,16-32
+343,0,2,male,0,0,S,Mr,solo,10-25,16-32
+344,0,2,male,0,0,S,Mr,solo,10-25,16-32
+345,0,2,male,0,0,S,Mr,solo,10-25,32-48
+346,1,2,female,0,0,S,Miss,solo,10-25,16-32
+347,1,2,female,0,0,S,Miss,solo,10-25,32-48
+348,1,3,female,1,0,S,Mrs,couple,10-25,16-32
+349,1,3,male,1,1,S,Master,group,10-25,0-16
+350,0,3,male,0,0,S,Mr,solo,0-10,32-48
+351,0,3,male,0,0,S,Mr,solo,0-10,16-32
+352,0,1,male,0,0,S,Mr,solo,25-40,32-48
+353,0,3,male,1,1,C,Mr,group,0-10,0-16
+354,0,3,male,1,0,S,Mr,couple,10-25,16-32
+355,0,3,male,0,0,C,Mr,solo,0-10,16-32
+356,0,3,male,0,0,S,Mr,solo,0-10,16-32
+357,1,1,female,0,1,S,Miss,couple,40-70,16-32
+358,0,2,female,0,0,S,Miss,solo,10-25,32-48
+359,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+360,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+361,0,3,male,1,4,S,Mr,large group,25-40,32-48
+362,0,2,male,1,0,C,Mr,couple,25-40,16-32
+363,0,3,female,0,1,C,Mrs,couple,10-25,32-48
+364,0,3,male,0,0,S,Mr,solo,0-10,32-48
+365,0,3,male,1,0,Q,Mr,couple,10-25,16-32
+366,0,3,male,0,0,S,Mr,solo,0-10,16-32
+367,1,1,female,1,0,C,Mrs,couple,70-100,48-64
+368,1,3,female,0,0,C,Mrs,solo,0-10,16-32
+369,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+370,1,1,female,0,0,C,Mrs,couple,40-70,16-32
+371,1,1,male,1,0,C,Mr,couple,40-70,16-32
+372,0,3,male,1,0,S,Mr,couple,0-10,16-32
+373,0,3,male,0,0,S,Mr,solo,0-10,16-32
+374,0,1,male,0,0,C,Mr,group,100+,16-32
+375,0,3,female,3,1,S,Miss,large group,10-25,0-16
+376,1,1,female,1,0,C,Mrs,couple,70-100,32-48
+377,1,3,female,0,0,S,Miss,solo,0-10,16-32
+378,0,1,male,0,2,C,Mr,group,100+,16-32
+379,0,3,male,0,0,C,Mr,solo,0-10,16-32
+380,0,3,male,0,0,S,Mr,solo,0-10,16-32
+381,1,1,female,0,0,C,Miss,group,100+,32-48
+382,1,3,female,0,2,C,Miss,group,10-25,0-16
+383,0,3,male,0,0,S,Mr,solo,0-10,16-32
+384,1,1,female,1,0,S,Mrs,couple,40-70,32-48
+385,0,3,male,0,0,S,Mr,solo,0-10,16-32
+386,0,2,male,0,0,S,Mr,large group,70-100,16-32
+387,0,3,male,5,2,S,Master,large group,40-70,0-16
+388,1,2,female,0,0,S,Miss,solo,10-25,32-48
+389,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+390,1,2,female,0,0,C,Miss,solo,10-25,16-32
+391,1,1,male,1,2,S,Mr,group,100+,32-48
+392,1,3,male,0,0,S,Mr,solo,0-10,16-32
+393,0,3,male,2,0,S,Mr,group,0-10,16-32
+394,1,1,female,1,0,C,Miss,group,100+,16-32
+395,1,3,female,0,2,S,Mrs,group,10-25,16-32
+396,0,3,male,0,0,S,Mr,solo,0-10,16-32
+397,0,3,female,0,0,S,Miss,solo,0-10,16-32
+398,0,2,male,0,0,S,Mr,couple,25-40,32-48
+399,0,2,male,0,0,S,Rare Title,solo,10-25,16-32
+400,1,2,female,0,0,S,Mrs,solo,10-25,16-32
+401,1,3,male,0,0,S,Mr,solo,0-10,32-48
+402,0,3,male,0,0,S,Mr,solo,0-10,16-32
+403,0,3,female,1,0,S,Miss,couple,0-10,16-32
+404,0,3,male,1,0,S,Mr,couple,10-25,16-32
+405,0,3,female,0,0,S,Miss,solo,0-10,16-32
+406,0,2,male,1,0,S,Mr,couple,10-25,32-48
+407,0,3,male,0,0,S,Mr,solo,0-10,48-64
+408,1,2,male,1,1,S,Master,group,10-25,0-16
+409,0,3,male,0,0,S,Mr,solo,0-10,16-32
+410,0,3,female,3,1,S,Miss,large group,25-40,16-32
+411,0,3,male,0,0,S,Mr,solo,0-10,16-32
+412,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+413,1,1,female,1,0,Q,Miss,couple,70-100,32-48
+414,0,2,male,0,0,S,Mr,group,10-25,16-32
+415,1,3,male,0,0,S,Mr,solo,0-10,32-48
+416,0,3,female,0,0,S,Mrs,solo,0-10,16-32
+417,1,2,female,1,1,S,Mrs,group,25-40,32-48
+418,1,2,female,0,2,S,Miss,group,10-25,16-32
+419,0,2,male,0,0,S,Mr,solo,10-25,16-32
+420,0,3,female,0,2,S,Miss,group,10-25,0-16
+421,0,3,male,0,0,C,Mr,solo,0-10,16-32
+422,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+423,0,3,male,0,0,S,Mr,solo,0-10,16-32
+424,0,3,female,1,1,S,Mrs,group,10-25,16-32
+425,0,3,male,1,1,S,Mr,group,10-25,16-32
+426,0,3,male,0,0,S,Mr,solo,0-10,16-32
+427,1,2,female,1,0,S,Mrs,couple,25-40,16-32
+428,1,2,female,0,0,S,Miss,couple,25-40,16-32
+429,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+430,1,3,male,0,0,S,Mr,solo,0-10,16-32
+431,1,1,male,0,0,S,Mr,solo,25-40,16-32
+432,1,3,female,1,0,S,Mrs,couple,10-25,16-32
+433,1,2,female,1,0,S,Mrs,couple,25-40,32-48
+434,0,3,male,0,0,S,Mr,solo,0-10,16-32
+435,0,1,male,1,0,S,Mr,couple,40-70,48-64
+436,1,1,female,1,2,S,Miss,group,100+,0-16
+437,0,3,female,2,2,S,Miss,large group,25-40,16-32
+438,1,2,female,2,3,S,Mrs,large group,10-25,16-32
+439,0,1,male,1,4,S,Mr,large group,100+,48-64
+440,0,2,male,0,0,S,Mr,solo,10-25,16-32
+441,1,2,female,1,1,S,Mrs,group,25-40,32-48
+442,0,3,male,0,0,S,Mr,solo,0-10,16-32
+443,0,3,male,1,0,S,Mr,couple,0-10,16-32
+444,1,2,female,0,0,S,Mrs,solo,10-25,16-32
+445,1,3,male,0,0,S,Mr,solo,0-10,16-32
+446,1,1,male,0,2,S,Master,group,70-100,0-16
+447,1,2,female,0,1,S,Miss,couple,10-25,0-16
+448,1,1,male,0,0,S,Mr,solo,25-40,32-48
+449,1,3,female,2,1,C,Miss,group,10-25,0-16
+450,1,1,male,0,0,S,Rare Title,solo,25-40,48-64
+451,0,2,male,1,2,S,Mr,group,25-40,32-48
+452,0,3,male,1,0,S,Mr,couple,10-25,16-32
+453,0,1,male,0,0,C,Mr,solo,25-40,16-32
+454,1,1,male,1,0,C,Mr,couple,70-100,48-64
+455,0,3,male,0,0,S,Mr,solo,0-10,16-32
+456,1,3,male,0,0,C,Mr,solo,0-10,16-32
+457,0,1,male,0,0,S,Mr,solo,25-40,64+
+458,1,1,female,1,0,S,Mrs,couple,40-70,32-48
+459,1,2,female,0,0,S,Miss,solo,10-25,48-64
+460,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+461,1,1,male,0,0,S,Mr,solo,25-40,32-48
+462,0,3,male,0,0,S,Mr,solo,0-10,32-48
+463,0,1,male,0,0,S,Mr,solo,25-40,32-48
+464,0,2,male,0,0,S,Mr,solo,10-25,32-48
+465,0,3,male,0,0,S,Mr,solo,0-10,16-32
+466,0,3,male,0,0,S,Mr,solo,0-10,32-48
+467,0,2,male,0,0,S,Mr,group,10-25,16-32
+468,0,1,male,0,0,S,Mr,solo,25-40,48-64
+469,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+470,1,3,female,2,1,C,Miss,group,10-25,0-16
+471,0,3,male,0,0,S,Mr,solo,0-10,16-32
+472,0,3,male,0,0,S,Mr,solo,0-10,32-48
+473,1,2,female,1,2,S,Mrs,group,25-40,32-48
+474,1,2,female,0,0,C,Mrs,solo,10-25,16-32
+475,0,3,female,0,0,S,Miss,solo,0-10,16-32
+476,0,1,male,0,0,S,Mr,couple,40-70,32-48
+477,0,2,male,1,0,S,Mr,couple,10-25,32-48
+478,0,3,male,1,0,S,Mr,couple,0-10,16-32
+479,0,3,male,0,0,S,Mr,solo,0-10,16-32
+480,1,3,female,0,1,S,Miss,couple,10-25,0-16
+481,0,3,male,5,2,S,Master,large group,40-70,0-16
+482,0,2,male,0,0,S,Mr,solo,10-25,16-32
+483,0,3,male,0,0,S,Mr,solo,0-10,48-64
+484,1,3,female,0,0,S,Mrs,solo,0-10,48-64
+485,1,1,male,1,0,C,Mr,couple,70-100,16-32
+486,0,3,female,3,1,S,Miss,large group,25-40,16-32
+487,1,1,female,1,0,S,Mrs,couple,70-100,32-48
+488,0,1,male,0,0,C,Mr,solo,25-40,48-64
+489,0,3,male,0,0,S,Mr,solo,0-10,16-32
+490,1,3,male,1,1,S,Master,group,10-25,0-16
+491,0,3,male,1,0,S,Mr,couple,10-25,16-32
+492,0,3,male,0,0,S,Mr,solo,0-10,16-32
+493,0,1,male,0,0,S,Mr,solo,25-40,48-64
+494,0,1,male,0,0,C,Mr,solo,40-70,64+
+495,0,3,male,0,0,S,Mr,solo,0-10,16-32
+496,0,3,male,0,0,C,Mr,couple,10-25,16-32
+497,1,1,female,1,0,C,Miss,couple,70-100,48-64
+498,0,3,male,0,0,S,Mr,solo,10-25,16-32
+499,0,1,female,1,2,S,Mrs,group,100+,16-32
+500,0,3,male,0,0,S,Mr,solo,0-10,16-32
+501,0,3,male,0,0,S,Mr,solo,0-10,16-32
+502,0,3,female,0,0,Q,Miss,solo,0-10,16-32
+503,0,3,female,0,0,Q,Miss,solo,0-10,16-32
+504,0,3,female,0,0,S,Miss,solo,0-10,32-48
+505,1,1,female,0,0,S,Miss,group,70-100,0-16
+506,0,1,male,1,0,C,Mr,couple,100+,16-32
+507,1,2,female,0,2,S,Mrs,group,25-40,32-48
+508,1,1,male,0,0,S,Mr,solo,25-40,32-48
+509,0,3,male,0,0,S,Mr,solo,10-25,16-32
+510,1,3,male,0,0,S,Mr,large group,40-70,16-32
+511,1,3,male,0,0,Q,Mr,solo,0-10,16-32
+512,0,3,male,0,0,S,Mr,solo,0-10,16-32
+513,1,1,male,0,0,S,Mr,solo,25-40,32-48
+514,1,1,female,1,0,C,Mrs,couple,40-70,48-64
+515,0,3,male,0,0,S,Mr,solo,0-10,16-32
+516,0,1,male,0,0,S,Mr,solo,25-40,32-48
+517,1,2,female,0,0,S,Mrs,solo,10-25,32-48
+518,0,3,male,0,0,Q,Mr,group,10-25,16-32
+519,1,2,female,1,0,S,Mrs,couple,25-40,32-48
+520,0,3,male,0,0,S,Mr,solo,0-10,16-32
+521,1,1,female,0,0,S,Miss,couple,70-100,16-32
+522,0,3,male,0,0,S,Mr,solo,0-10,16-32
+523,0,3,male,0,0,C,Mr,solo,0-10,16-32
+524,1,1,female,0,1,C,Mrs,couple,40-70,32-48
+525,0,3,male,0,0,C,Mr,solo,0-10,16-32
+526,0,3,male,0,0,Q,Mr,solo,0-10,32-48
+527,1,2,female,0,0,S,Miss,solo,10-25,48-64
+528,0,1,male,0,0,S,Mr,solo,100+,32-48
+529,0,3,male,0,0,S,Mr,solo,0-10,32-48
+530,0,2,male,2,1,S,Mr,group,10-25,16-32
+531,1,2,female,1,1,S,Miss,group,25-40,0-16
+532,0,3,male,0,0,C,Mr,solo,0-10,16-32
+533,0,3,male,1,1,C,Mr,group,0-10,16-32
+534,1,3,female,0,2,C,Mrs,group,10-25,16-32
+535,0,3,female,0,0,S,Miss,solo,0-10,16-32
+536,1,2,female,0,2,S,Miss,group,25-40,0-16
+537,0,1,male,0,0,S,Rare Title,solo,25-40,32-48
+538,1,1,female,0,0,C,Miss,couple,100+,16-32
+539,0,3,male,0,0,S,Mr,solo,10-25,16-32
+540,1,1,female,0,2,C,Miss,group,40-70,16-32
+541,1,1,female,0,2,S,Miss,group,70-100,32-48
+542,0,3,female,4,2,S,Miss,large group,25-40,0-16
+543,0,3,female,4,2,S,Miss,large group,25-40,0-16
+544,1,2,male,1,0,S,Mr,couple,25-40,16-32
+545,0,1,male,1,0,C,Mr,couple,100+,48-64
+546,0,1,male,0,0,S,Mr,solo,25-40,48-64
+547,1,2,female,1,0,S,Mrs,couple,25-40,16-32
+548,1,2,male,0,0,C,Mr,solo,10-25,16-32
+549,0,3,male,1,1,S,Mr,group,10-25,32-48
+550,1,2,male,1,1,S,Master,group,25-40,0-16
+551,1,1,male,0,2,C,Mr,group,100+,16-32
+552,0,2,male,0,0,S,Mr,solo,25-40,16-32
+553,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+554,1,3,male,0,0,C,Mr,solo,0-10,16-32
+555,1,3,female,0,0,S,Miss,solo,0-10,16-32
+556,0,1,male,0,0,S,Mr,solo,25-40,48-64
+557,1,1,female,1,0,C,Rare Title,couple,25-40,32-48
+558,0,1,male,0,0,C,Mr,group,100+,32-48
+559,1,1,female,1,1,S,Mrs,group,70-100,32-48
+560,1,3,female,1,0,S,Mrs,couple,10-25,32-48
+561,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+562,0,3,male,0,0,S,Mr,solo,0-10,32-48
+563,0,2,male,0,0,S,Mr,solo,10-25,16-32
+564,0,3,male,0,0,S,Mr,solo,0-10,16-32
+565,0,3,female,0,0,S,Miss,solo,0-10,16-32
+566,0,3,male,2,0,S,Mr,group,10-25,16-32
+567,0,3,male,0,0,S,Mr,solo,0-10,16-32
+568,0,3,female,0,4,S,Mrs,large group,10-25,16-32
+569,0,3,male,0,0,C,Mr,solo,0-10,16-32
+570,1,3,male,0,0,S,Mr,solo,0-10,16-32
+571,1,2,male,0,0,S,Mr,solo,10-25,48-64
+572,1,1,female,2,0,S,Mrs,group,40-70,48-64
+573,1,1,male,0,0,S,Mr,solo,25-40,32-48
+574,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+575,0,3,male,0,0,S,Mr,solo,0-10,0-16
+576,0,3,male,0,0,S,Mr,couple,10-25,16-32
+577,1,2,female,0,0,S,Miss,solo,10-25,32-48
+578,1,1,female,1,0,S,Mrs,couple,40-70,32-48
+579,0,3,female,1,0,C,Mrs,couple,10-25,16-32
+580,1,3,male,0,0,S,Mr,solo,0-10,16-32
+581,1,2,female,1,1,S,Miss,group,25-40,16-32
+582,1,1,female,1,1,C,Mrs,group,100+,32-48
+583,0,2,male,0,0,S,Mr,couple,25-40,48-64
+584,0,1,male,0,0,C,Mr,solo,40-70,32-48
+585,0,3,male,0,0,C,Mr,solo,0-10,16-32
+586,1,1,female,0,2,S,Miss,group,70-100,16-32
+587,0,2,male,0,0,S,Mr,solo,10-25,32-48
+588,1,1,male,1,1,C,Mr,group,70-100,48-64
+589,0,3,male,0,0,S,Mr,solo,0-10,16-32
+590,0,3,male,0,0,S,Mr,solo,0-10,16-32
+591,0,3,male,0,0,S,Mr,solo,0-10,32-48
+592,1,1,female,1,0,C,Mrs,couple,70-100,48-64
+593,0,3,male,0,0,S,Mr,solo,0-10,32-48
+594,0,3,female,0,2,Q,Miss,group,0-10,16-32
+595,0,2,male,1,0,S,Mr,couple,25-40,32-48
+596,0,3,male,1,1,S,Mr,group,10-25,32-48
+597,1,2,female,0,0,S,Miss,group,25-40,16-32
+598,0,3,male,0,0,S,Mr,group,0-10,48-64
+599,0,3,male,0,0,C,Mr,solo,0-10,16-32
+600,1,1,male,1,0,C,Rare Title,couple,40-70,48-64
+601,1,2,female,2,1,S,Mrs,group,25-40,16-32
+602,0,3,male,0,0,S,Mr,solo,0-10,16-32
+603,0,1,male,0,0,S,Mr,solo,40-70,32-48
+604,0,3,male,0,0,S,Mr,solo,0-10,32-48
+605,1,1,male,0,0,C,Mr,solo,25-40,32-48
+606,0,3,male,1,0,S,Mr,couple,10-25,32-48
+607,0,3,male,0,0,S,Mr,solo,0-10,16-32
+608,1,1,male,0,0,S,Mr,solo,25-40,16-32
+609,1,2,female,1,2,C,Mrs,group,40-70,16-32
+610,1,1,female,0,0,S,Miss,group,100+,32-48
+611,0,3,female,1,5,S,Mrs,large group,25-40,32-48
+612,0,3,male,0,0,S,Mr,solo,0-10,16-32
+613,1,3,female,1,0,Q,Miss,couple,10-25,16-32
+614,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+615,0,3,male,0,0,S,Mr,solo,0-10,32-48
+616,1,2,female,1,2,S,Miss,group,40-70,16-32
+617,0,3,male,1,1,S,Mr,group,10-25,32-48
+618,0,3,female,1,0,S,Mrs,couple,10-25,16-32
+619,1,2,female,2,1,S,Miss,group,25-40,0-16
+620,0,2,male,0,0,S,Mr,solo,10-25,16-32
+621,0,3,male,1,0,C,Mr,couple,10-25,16-32
+622,1,1,male,1,0,S,Mr,couple,40-70,32-48
+623,1,3,male,1,1,C,Mr,group,10-25,16-32
+624,0,3,male,0,0,S,Mr,solo,0-10,16-32
+625,0,3,male,0,0,S,Mr,couple,10-25,16-32
+626,0,1,male,0,0,S,Mr,solo,25-40,48-64
+627,0,2,male,0,0,Q,Rare Title,solo,10-25,48-64
+628,1,1,female,0,0,S,Miss,group,70-100,16-32
+629,0,3,male,0,0,S,Mr,solo,0-10,16-32
+630,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+631,1,1,male,0,0,S,Mr,solo,25-40,64+
+632,0,3,male,0,0,S,Mr,solo,0-10,48-64
+633,1,1,male,0,0,C,Rare Title,solo,25-40,16-32
+634,0,1,male,0,0,S,Mr,solo,40-70,32-48
+635,0,3,female,3,2,S,Miss,large group,25-40,0-16
+636,1,2,female,0,0,S,Miss,solo,10-25,16-32
+637,0,3,male,0,0,S,Mr,solo,0-10,16-32
+638,0,2,male,1,1,S,Mr,group,25-40,16-32
+639,0,3,female,0,5,S,Mrs,large group,25-40,32-48
+640,0,3,male,1,0,S,Mr,couple,10-25,16-32
+641,0,3,male,0,0,S,Mr,solo,0-10,16-32
+642,1,1,female,0,0,C,Miss,couple,40-70,16-32
+643,0,3,female,3,2,S,Miss,large group,25-40,0-16
+644,1,3,male,0,0,S,Mr,large group,40-70,16-32
+645,1,3,female,2,1,C,Miss,group,10-25,0-16
+646,1,1,male,1,0,C,Mr,group,70-100,32-48
+647,0,3,male,0,0,S,Mr,solo,0-10,16-32
+648,1,1,male,0,0,C,Rare Title,solo,25-40,48-64
+649,0,3,male,0,0,S,Mr,solo,0-10,16-32
+650,1,3,female,0,0,S,Miss,solo,0-10,16-32
+651,0,3,male,0,0,S,Mr,solo,0-10,16-32
+652,1,2,female,0,1,S,Miss,couple,10-25,16-32
+653,0,3,male,0,0,S,Mr,solo,0-10,16-32
+654,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+655,0,3,female,0,0,Q,Miss,solo,0-10,16-32
+656,0,2,male,2,0,S,Mr,large group,70-100,16-32
+657,0,3,male,0,0,S,Mr,solo,0-10,16-32
+658,0,3,female,1,1,Q,Mrs,group,10-25,16-32
+659,0,2,male,0,0,S,Mr,solo,10-25,16-32
+660,0,1,male,0,2,C,Mr,group,100+,48-64
+661,1,1,male,2,0,S,Rare Title,group,100+,48-64
+662,0,3,male,0,0,C,Mr,solo,0-10,32-48
+663,0,1,male,0,0,S,Mr,solo,25-40,32-48
+664,0,3,male,0,0,S,Mr,solo,0-10,32-48
+665,1,3,male,1,0,S,Mr,couple,0-10,16-32
+666,0,2,male,2,0,S,Mr,large group,70-100,16-32
+667,0,2,male,0,0,S,Mr,solo,10-25,16-32
+668,0,3,male,0,0,S,Mr,solo,0-10,16-32
+669,0,3,male,0,0,S,Mr,solo,0-10,32-48
+670,1,1,female,1,0,S,Mrs,couple,40-70,32-48
+671,1,2,female,1,1,S,Mrs,group,25-40,32-48
+672,0,1,male,1,0,S,Mr,couple,40-70,16-32
+673,0,2,male,0,0,S,Mr,solo,10-25,64+
+674,1,2,male,0,0,S,Mr,solo,10-25,16-32
+675,0,2,male,0,0,S,Mr,solo,10-25,16-32
+676,0,3,male,0,0,S,Mr,solo,0-10,16-32
+677,0,3,male,0,0,S,Mr,solo,0-10,16-32
+678,1,3,female,0,0,S,Miss,solo,0-10,16-32
+679,0,3,female,1,6,S,Mrs,large group,40-70,32-48
+680,1,1,male,0,1,C,Mr,group,100+,32-48
+681,0,3,female,0,0,Q,Miss,solo,0-10,16-32
+682,1,1,male,0,0,C,Mr,group,70-100,16-32
+683,0,3,male,0,0,S,Mr,solo,0-10,16-32
+684,0,3,male,5,2,S,Mr,large group,40-70,0-16
+685,0,2,male,1,1,S,Mr,group,25-40,48-64
+686,0,2,male,1,2,C,Mr,group,40-70,16-32
+687,0,3,male,4,1,S,Mr,large group,25-40,0-16
+688,0,3,male,0,0,S,Mr,solo,10-25,16-32
+689,0,3,male,0,0,S,Mr,solo,0-10,16-32
+690,1,1,female,0,1,S,Miss,group,100+,0-16
+691,1,1,male,1,0,S,Mr,couple,40-70,16-32
+692,1,3,female,0,1,C,Miss,couple,10-25,0-16
+693,1,3,male,0,0,S,Mr,large group,40-70,16-32
+694,0,3,male,0,0,C,Mr,solo,0-10,16-32
+695,0,1,male,0,0,S,Rare Title,solo,25-40,48-64
+696,0,2,male,0,0,S,Mr,solo,10-25,48-64
+697,0,3,male,0,0,S,Mr,solo,0-10,32-48
+698,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+699,0,1,male,1,1,C,Mr,group,100+,48-64
+700,0,3,male,0,0,S,Mr,solo,0-10,32-48
+701,1,1,female,1,0,C,Mrs,group,100+,16-32
+702,1,1,male,0,0,S,Mr,solo,25-40,32-48
+703,0,3,female,0,1,C,Miss,couple,10-25,16-32
+704,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+705,0,3,male,1,0,S,Mr,couple,0-10,16-32
+706,0,2,male,0,0,S,Mr,couple,25-40,32-48
+707,1,2,female,0,0,S,Mrs,solo,10-25,32-48
+708,1,1,male,0,0,S,Mr,solo,25-40,32-48
+709,1,1,female,0,0,S,Miss,group,100+,16-32
+710,1,3,male,1,1,C,Master,group,10-25,0-16
+711,1,1,female,0,0,C,Miss,solo,40-70,16-32
+712,0,1,male,0,0,S,Mr,solo,25-40,32-48
+713,1,1,male,1,0,S,Mr,couple,40-70,32-48
+714,0,3,male,0,0,S,Mr,solo,0-10,16-32
+715,0,2,male,0,0,S,Mr,couple,10-25,48-64
+716,0,3,male,0,0,S,Mr,solo,0-10,16-32
+717,1,1,female,0,0,C,Miss,group,100+,32-48
+718,1,2,female,0,0,S,Miss,solo,10-25,16-32
+719,0,3,male,0,0,Q,Mr,solo,10-25,16-32
+720,0,3,male,0,0,S,Mr,solo,0-10,32-48
+721,1,2,female,0,1,S,Miss,group,25-40,0-16
+722,0,3,male,1,0,S,Mr,couple,0-10,16-32
+723,0,2,male,0,0,S,Mr,solo,10-25,32-48
+724,0,2,male,0,0,S,Mr,solo,10-25,48-64
+725,1,1,male,1,0,S,Mr,couple,40-70,16-32
+726,0,3,male,0,0,S,Mr,solo,0-10,16-32
+727,1,2,female,3,0,S,Mrs,group,10-25,16-32
+728,1,3,female,0,0,Q,Miss,solo,0-10,16-32
+729,0,2,male,1,0,S,Mr,couple,25-40,16-32
+730,0,3,female,1,0,S,Miss,couple,0-10,16-32
+731,1,1,female,0,0,S,Miss,group,100+,16-32
+732,0,3,male,0,0,C,Mr,couple,10-25,0-16
+733,0,2,male,0,0,S,Mr,solo,10-25,16-32
+734,0,2,male,0,0,S,Mr,solo,10-25,16-32
+735,0,2,male,0,0,S,Mr,solo,10-25,16-32
+736,0,3,male,0,0,S,Mr,couple,10-25,16-32
+737,0,3,female,1,3,S,Mrs,large group,25-40,32-48
+738,1,1,male,0,0,C,Mr,group,100+,32-48
+739,0,3,male,0,0,S,Mr,solo,0-10,16-32
+740,0,3,male,0,0,S,Mr,solo,0-10,16-32
+741,1,1,male,0,0,S,Mr,solo,25-40,32-48
+742,0,1,male,1,0,S,Mr,couple,70-100,32-48
+743,1,1,female,2,2,C,Miss,large group,100+,16-32
+744,0,3,male,1,0,S,Mr,couple,10-25,16-32
+745,1,3,male,0,0,S,Mr,solo,0-10,16-32
+746,0,1,male,1,1,S,Rare Title,group,70-100,64+
+747,0,3,male,1,1,S,Mr,group,10-25,0-16
+748,1,2,female,0,0,S,Miss,solo,10-25,16-32
+749,0,1,male,1,0,S,Mr,couple,40-70,16-32
+750,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+751,1,2,female,1,1,S,Miss,group,10-25,0-16
+752,1,3,male,0,1,S,Master,couple,10-25,0-16
+753,0,3,male,0,0,S,Mr,solo,0-10,32-48
+754,0,3,male,0,0,S,Mr,solo,0-10,16-32
+755,1,2,female,1,2,S,Mrs,group,40-70,32-48
+756,1,2,male,1,1,S,Master,group,10-25,0-16
+757,0,3,male,0,0,S,Mr,solo,0-10,16-32
+758,0,2,male,0,0,S,Mr,solo,10-25,16-32
+759,0,3,male,0,0,S,Mr,solo,0-10,32-48
+760,1,1,female,0,0,S,Rare Title,group,70-100,32-48
+761,0,3,male,0,0,S,Mr,couple,10-25,16-32
+762,0,3,male,0,0,S,Mr,solo,0-10,32-48
+763,1,3,male,0,0,C,Mr,solo,0-10,16-32
+764,1,1,female,1,2,S,Mrs,group,100+,32-48
+765,0,3,male,0,0,S,Mr,solo,0-10,0-16
+766,1,1,female,1,0,S,Mrs,group,70-100,48-64
+767,0,1,male,0,0,C,Rare Title,solo,25-40,48-64
+768,0,3,female,0,0,Q,Miss,solo,0-10,16-32
+769,0,3,male,1,0,Q,Mr,group,10-25,16-32
+770,0,3,male,0,0,S,Mr,solo,0-10,16-32
+771,0,3,male,0,0,S,Mr,solo,0-10,16-32
+772,0,3,male,0,0,S,Mr,solo,0-10,32-48
+773,0,2,female,0,0,S,Mrs,couple,10-25,48-64
+774,0,3,male,0,0,C,Mr,solo,0-10,16-32
+775,1,2,female,1,3,S,Mrs,large group,10-25,48-64
+776,0,3,male,0,0,S,Mr,solo,0-10,16-32
+777,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+778,1,3,female,0,0,S,Miss,couple,10-25,0-16
+779,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+780,1,1,female,0,1,S,Mrs,group,100+,32-48
+781,1,3,female,0,0,C,Miss,solo,0-10,0-16
+782,1,1,female,1,0,S,Mrs,couple,40-70,16-32
+783,0,1,male,0,0,S,Mr,solo,25-40,16-32
+784,0,3,male,1,2,S,Mr,group,10-25,16-32
+785,0,3,male,0,0,S,Mr,solo,0-10,16-32
+786,0,3,male,0,0,S,Mr,solo,0-10,16-32
+787,1,3,female,0,0,S,Miss,solo,0-10,16-32
+788,0,3,male,4,1,Q,Master,large group,25-40,0-16
+789,1,3,male,1,2,S,Master,group,10-25,0-16
+790,0,1,male,0,0,C,Mr,couple,70-100,32-48
+791,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+792,0,2,male,0,0,S,Mr,couple,25-40,0-16
+793,0,3,female,8,2,S,Miss,large group,40-70,16-32
+794,0,1,male,0,0,C,Mr,solo,25-40,32-48
+795,0,3,male,0,0,S,Mr,solo,0-10,16-32
+796,0,2,male,0,0,S,Mr,solo,10-25,32-48
+797,1,1,female,0,0,S,Rare Title,solo,25-40,48-64
+798,1,3,female,0,0,S,Mrs,solo,0-10,16-32
+799,0,3,male,0,0,C,Mr,solo,0-10,16-32
+800,0,3,female,1,1,S,Mrs,group,10-25,16-32
+801,0,2,male,0,0,S,Mr,couple,10-25,32-48
+802,1,2,female,1,1,S,Mrs,group,25-40,16-32
+803,1,1,male,1,2,S,Master,group,100+,0-16
+804,1,3,male,0,1,C,Master,couple,0-10,0-16
+805,1,3,male,0,0,S,Mr,solo,0-10,16-32
+806,0,3,male,0,0,S,Mr,solo,0-10,16-32
+807,0,1,male,0,0,S,Mr,solo,40-70,32-48
+808,0,3,female,0,0,S,Miss,solo,0-10,16-32
+809,0,2,male,0,0,S,Mr,solo,10-25,32-48
+810,1,1,female,1,0,S,Mrs,couple,40-70,32-48
+811,0,3,male,0,0,S,Mr,solo,0-10,16-32
+812,0,3,male,0,0,S,Mr,couple,10-25,32-48
+813,0,2,male,0,0,S,Mr,solo,10-25,32-48
+814,0,3,female,4,2,S,Miss,large group,25-40,0-16
+815,0,3,male,0,0,S,Mr,solo,0-10,16-32
+816,0,1,male,0,0,S,Mr,solo,40-70,32-48
+817,0,3,female,0,0,S,Miss,solo,0-10,16-32
+818,0,2,male,1,1,C,Mr,group,25-40,16-32
+819,0,3,male,0,0,S,Mr,solo,0-10,32-48
+820,0,3,male,3,2,S,Master,large group,25-40,0-16
+821,1,1,female,1,1,S,Mrs,group,70-100,48-64
+822,1,3,male,0,0,S,Mr,solo,0-10,16-32
+823,0,1,male,0,0,S,Rare Title,solo,40-70,32-48
+824,1,3,female,0,1,S,Mrs,couple,10-25,16-32
+825,0,3,male,4,1,S,Master,large group,25-40,0-16
+826,0,3,male,0,0,Q,Mr,solo,0-10,16-32
+827,0,3,male,0,0,S,Mr,large group,40-70,16-32
+828,1,2,male,0,2,C,Master,group,25-40,0-16
+829,1,3,male,0,0,Q,Mr,solo,0-10,16-32
+830,1,1,female,0,0,S,Mrs,couple,70-100,48-64
+831,1,3,female,1,0,C,Mrs,couple,10-25,0-16
+832,1,2,male,1,1,S,Master,group,10-25,0-16
+833,0,3,male,0,0,C,Mr,solo,0-10,16-32
+834,0,3,male,0,0,S,Mr,solo,0-10,16-32
+835,0,3,male,0,0,S,Mr,solo,0-10,16-32
+836,1,1,female,1,1,C,Miss,group,70-100,32-48
+837,0,3,male,0,0,S,Mr,solo,0-10,16-32
+838,0,3,male,0,0,S,Mr,solo,0-10,16-32
+839,1,3,male,0,0,S,Mr,large group,40-70,16-32
+840,1,1,male,0,0,C,Mr,solo,25-40,32-48
+841,0,3,male,0,0,S,Mr,solo,0-10,16-32
+842,0,2,male,0,0,S,Mr,couple,10-25,0-16
+843,1,1,female,0,0,C,Miss,couple,25-40,16-32
+844,0,3,male,0,0,C,Mr,solo,0-10,32-48
+845,0,3,male,0,0,S,Mr,solo,0-10,16-32
+846,0,3,male,0,0,S,Mr,solo,0-10,32-48
+847,0,3,male,8,2,S,Mr,large group,40-70,16-32
+848,0,3,male,0,0,C,Mr,solo,0-10,32-48
+849,0,2,male,0,1,S,Rare Title,group,25-40,16-32
+850,1,1,female,1,0,C,Mrs,couple,70-100,32-48
+851,0,3,male,4,2,S,Master,large group,25-40,0-16
+852,0,3,male,0,0,S,Mr,solo,0-10,64+
+853,0,3,female,1,1,C,Miss,group,10-25,0-16
+854,1,1,female,0,1,S,Miss,couple,25-40,0-16
+855,0,2,female,1,0,S,Mrs,couple,25-40,32-48
+856,1,3,female,0,1,S,Mrs,couple,0-10,16-32
+857,1,1,female,1,1,S,Mrs,group,100+,32-48
+858,1,1,male,0,0,S,Mr,solo,25-40,48-64
+859,1,3,female,0,3,C,Mrs,group,10-25,16-32
+860,0,3,male,0,0,C,Mr,solo,0-10,16-32
+861,0,3,male,2,0,S,Mr,group,10-25,32-48
+862,0,2,male,1,0,S,Mr,couple,10-25,16-32
+863,1,1,female,0,0,S,Mrs,solo,25-40,32-48
+864,0,3,female,8,2,S,Miss,large group,40-70,16-32
+865,0,2,male,0,0,S,Mr,solo,10-25,16-32
+866,1,2,female,0,0,S,Mrs,solo,10-25,32-48
+867,1,2,female,1,0,C,Miss,couple,10-25,16-32
+868,0,1,male,0,0,S,Mr,solo,40-70,16-32
+869,0,3,male,0,0,S,Mr,solo,0-10,16-32
+870,1,3,male,1,1,S,Master,group,10-25,0-16
+871,0,3,male,0,0,S,Mr,solo,0-10,16-32
+872,1,1,female,1,1,S,Mrs,group,40-70,32-48
+873,0,1,male,0,0,S,Mr,solo,0-10,32-48
+874,0,3,male,0,0,S,Mr,solo,0-10,32-48
+875,1,2,female,1,0,C,Mrs,couple,10-25,16-32
+876,1,3,female,0,0,C,Miss,solo,0-10,0-16
+877,0,3,male,0,0,S,Mr,couple,0-10,16-32
+878,0,3,male,0,0,S,Mr,solo,0-10,16-32
+879,0,3,male,0,0,S,Mr,solo,0-10,16-32
+880,1,1,female,0,1,C,Mrs,couple,70-100,48-64
+881,1,2,female,0,1,S,Mrs,couple,25-40,16-32
+882,0,3,male,0,0,S,Mr,solo,0-10,32-48
+883,0,3,female,0,0,S,Miss,solo,10-25,16-32
+884,0,2,male,0,0,S,Mr,solo,10-25,16-32
+885,0,3,male,0,0,S,Mr,solo,0-10,16-32
+886,0,3,female,0,5,Q,Mrs,large group,25-40,32-48
+887,0,2,male,0,0,S,Rare Title,solo,10-25,16-32
+888,1,1,female,0,0,S,Miss,solo,25-40,16-32
+889,0,3,female,1,2,S,Miss,group,10-25,16-32
+890,1,1,male,0,0,C,Mr,solo,25-40,16-32
+891,0,3,male,0,0,Q,Mr,solo,0-10,16-32
